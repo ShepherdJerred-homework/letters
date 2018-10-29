@@ -1,7 +1,6 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.12)
 project(letters)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(huff src/main.cpp)
-
+add_executable(letters src/main.cpp)
